@@ -12,6 +12,7 @@
   <p>Please enter how many pets you have and a number between 1 and 9 in the form below.</p>
 
   <form id="userInfo">
+    <p id="error-message" class="hidden">Please enter how many pets you have AND a number between 1 and 9.</p>
     <label for="numOfPets">Number of Pets:</label>
     <input id="numOfPets" type="text" name="numOfPets">
     <label for="numOneToNine">Number between 1 and 9:</label>
@@ -25,9 +26,14 @@
   </div>
 
   <div id="bugs" class="hidden">
-    <h2>Your match is Spongebob!</h2>
+    <h2>Your match is Bugs Bunny!</h2>
     <img class="bunny" src="./img/bugs.png" alt="photo of bugs bunny">
   </div>
+
+  <div id="noMatch" class="hidden">
+    <h2>Your relationship efforts are hopeless...sorry</h2>
+  </div>
+
   </div>
 </body>
 </html>
